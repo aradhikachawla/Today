@@ -1,6 +1,8 @@
 
 console.log('Today chrome extension go ');
+document.getElementById('btnGetMyPosts').onclick = launch;
 chrome.runtime.onMessage.addListener(gotMessage);
+
 let urls = []
 
 
